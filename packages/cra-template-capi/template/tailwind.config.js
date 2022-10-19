@@ -7,6 +7,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  presets: [require("cirque/dist/themes/polkadot/tw-preset")],
+  presets: [require("cirque/dist/themes/polkadot/tw-preset.cjs")],
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
